@@ -1,5 +1,13 @@
 # ResearchPilot
 
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)](https://langchain-ai.github.io/langgraph/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white)](https://github.com/facebookresearch/faiss)
+[![Tests](https://img.shields.io/badge/tests-pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)](tests/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+
 ResearchPilot is a local, evidence-grounded research assistant. It accepts a question,
 plans the research, retrieves passages from uploaded PDFs and a configured search provider,
 asks a local language model to analyse the evidence, checks every citation in code, and
@@ -347,3 +355,7 @@ belong in `.env` or the environment, never in code, notebooks, or run data.
 - [Final demo script](docs/FINAL_DEMO_SCRIPT.md) — five-minute presentation and instructor Q&A.
 - [Notebook recording notes](docs/NOTEBOOK_RECORDING_NOTES.md) — speaking cues for the local walkthrough recording.
 - [Kaggle checklist](docs/KAGGLE_CHECKLIST.md) — optional, preserved notebook setup.
+
+## License
+
+Released under the [MIT License](LICENSE).
