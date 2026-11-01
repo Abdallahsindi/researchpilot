@@ -1,0 +1,54 @@
+[
+  {
+    "id": "battery-chemistry",
+    "question": "Which battery chemistry did the microgrid pilot use, and why was it chosen?",
+    "answerable": true,
+    "expected_pages": [
+      2
+    ]
+  },
+  {
+    "id": "cost-and-payback",
+    "question": "What was the total installed cost of the pilot and its payback period?",
+    "answerable": true,
+    "expected_pages": [
+      3
+    ]
+  },
+  {
+    "id": "solar-capacity",
+    "question": "What is the peak capacity of the solar array?",
+    "answerable": true,
+    "expected_pages": [
+      1
+    ]
+  },
+  {
+    "id": "outage-performance",
+    "question": "How did the microgrid perform during grid outages?",
+    "answerable": true,
+    "expected_pages": [
+      3
+    ]
+  },
+  {
+    "id": "expansion-plans",
+    "question": "Which buildings are recommended for the next expansion?",
+    "answerable": true,
+    "expected_pages": [
+      4
+    ]
+  },
+  {
+    "id": "unanswerable-president",
+    "question": "Who is the president of Lakeside Technical University?",
+    "answerable": false,
+    "expected_pages": []
+  },
+  {
+    "id": "unanswerable-wind",
+    "question": "How many wind turbines does the microgrid use and what is their capacity?",
+    "answerable": false,
+    "expected_pages": []
+  }
+]

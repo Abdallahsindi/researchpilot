@@ -1,0 +1,100 @@
+[
+  {
+    "url": "https://demo.example/vector-storage/pgvector-overview",
+    "title": "pgvector: vector similarity search inside PostgreSQL",
+    "content": "pgvector is a PostgreSQL extension that stores embeddings in a vector column and supports exact and approximate nearest-neighbor search. Because vectors live next to relational data, teams can filter, join, and back up embeddings with the database they already operate, which keeps infrastructure small.",
+    "tags": ["vector database", "postgres", "rag", "retrieval", "storage"],
+    "published_date": "2025-02-14"
+  },
+  {
+    "url": "https://demo.example/vector-storage/dedicated-vector-databases",
+    "title": "When a dedicated vector database is worth it",
+    "content": "Dedicated vector databases are built for similarity search at large scale and usually offer managed hosting, horizontal scaling, and vector-specific features. The trade-off is another system to pay for, secure, and keep in sync with the primary database. For small teams with modest data volumes, a database extension is often enough.",
+    "tags": ["vector database", "scaling", "cost", "managed service", "comparison"],
+    "published_date": "2025-04-03"
+  },
+  {
+    "url": "https://demo.example/vector-storage/hnsw-vs-ivfflat",
+    "title": "HNSW vs IVFFlat indexes for approximate search",
+    "content": "HNSW indexes generally give a better speed-recall trade-off at query time but take longer to build and use more memory. IVFFlat indexes build faster and use less memory, but recall depends on choosing the number of lists and probes, and the index should be built after representative data is loaded.",
+    "tags": ["vector database", "index", "latency", "recall", "performance"],
+    "published_date": "2025-01-22"
+  },
+  {
+    "url": "https://demo.example/vector-storage/embedding-storage-cost",
+    "title": "Estimating embedding storage requirements",
+    "content": "A float32 embedding uses four bytes per dimension, so storage grows linearly with both dimension count and number of chunks. Estimating vectors per document and multiplying by dimension size gives a quick capacity check before choosing a storage option. Index structures add overhead on top of raw vector size.",
+    "tags": ["embeddings", "storage", "cost", "capacity planning", "vector database"],
+    "published_date": "2024-11-08"
+  },
+  {
+    "url": "https://demo.example/rag/chunking-strategies",
+    "title": "Chunking strategies for retrieval-augmented generation",
+    "content": "Chunk size controls a trade-off: small chunks retrieve precise passages but lose surrounding context, while large chunks keep context but dilute relevance scores. A modest overlap between chunks reduces the chance of splitting a key sentence. Keeping page numbers with each chunk makes citations traceable to the source document.",
+    "tags": ["rag", "chunking", "pdf", "retrieval", "citations"],
+    "published_date": "2025-03-17"
+  },
+  {
+    "url": "https://demo.example/rag/hybrid-search",
+    "title": "Hybrid search: combining keyword and vector retrieval",
+    "content": "Vector search captures semantic similarity but can miss exact terms such as product names or error codes. Keyword search handles exact matches well but misses paraphrases. Hybrid retrieval runs both and merges the ranked lists, which often improves recall for technical questions.",
+    "tags": ["rag", "retrieval", "search", "vector database", "keyword search"],
+    "published_date": "2025-05-29"
+  },
+  {
+    "url": "https://demo.example/rag/evaluating-retrieval",
+    "title": "How to evaluate a RAG pipeline",
+    "content": "Retrieval can be measured separately from generation using a labeled set of questions and the passages that answer them, with metrics such as recall at k. Generation should be checked for faithfulness to retrieved evidence and for citation coverage, meaning the share of factual claims that point to a supporting source.",
+    "tags": ["rag", "evaluation", "citations", "metrics", "testing"],
+    "published_date": "2025-06-11"
+  },
+  {
+    "url": "https://demo.example/llm/choosing-a-provider",
+    "title": "Choosing an LLM provider for an application",
+    "content": "Provider choice depends on output quality for the target task, latency, price per token, rate limits, context window, and data handling terms. Public benchmarks are a starting point, but the most reliable signal is a small evaluation set built from the application's own tasks. Keeping the provider behind an interface makes switching cheaper.",
+    "tags": ["llm", "provider", "cost", "latency", "comparison", "evaluation"],
+    "published_date": "2025-07-02"
+  },
+  {
+    "url": "https://demo.example/llm/latency-and-throughput",
+    "title": "LLM latency: time to first token and throughput",
+    "content": "Perceived responsiveness depends on time to first token, while total generation time depends on tokens per second. Multi-step agent workflows multiply these costs because each step waits on a model call, so reducing the number of sequential calls often matters more than raw model speed.",
+    "tags": ["llm", "latency", "performance", "agents", "throughput"],
+    "published_date": "2025-05-06"
+  },
+  {
+    "url": "https://demo.example/agents/graph-orchestration",
+    "title": "Graph-based orchestration for multi-agent workflows",
+    "content": "Graph-based frameworks model an agent workflow as nodes that read and update a shared, explicit state, connected by edges that can branch on conditions or loop back. Explicit state makes runs easier to inspect and test than free-form agent conversations, and loops can be bounded to prevent runaway retries.",
+    "tags": ["agents", "orchestration", "multi-agent", "workflow", "state machine"],
+    "published_date": "2025-03-25"
+  },
+  {
+    "url": "https://demo.example/agents/multi-agent-tradeoffs",
+    "title": "The hidden costs of multi-agent systems",
+    "content": "Splitting work across many agents can improve specialization, but every additional agent adds model calls, latency, cost, and new failure points. Useful patterns include running independent research steps in parallel, passing structured data between agents instead of prose, and stopping verification loops after a fixed number of rounds.",
+    "tags": ["agents", "multi-agent", "cost", "latency", "reliability"],
+    "published_date": "2025-08-19"
+  },
+  {
+    "url": "https://demo.example/agents/citation-verification",
+    "title": "Verifying citations in AI-generated research",
+    "content": "Language models can produce citations that do not exist or do not support the attached claim. A verification step should confirm that each cited source was actually retrieved during the run and that its text supports the statement. Claims without support should be flagged rather than silently kept.",
+    "tags": ["citations", "verification", "hallucination", "evaluation", "agents"],
+    "published_date": "2025-09-09"
+  },
+  {
+    "url": "https://demo.example/python/fastapi-vs-flask",
+    "title": "FastAPI vs Flask for Python APIs",
+    "content": "FastAPI is an ASGI framework with native async support, request validation through type hints and Pydantic, and automatically generated OpenAPI documentation. Flask is a mature WSGI framework with a large extension ecosystem and a minimal core. FastAPI suits I/O-heavy services that call external APIs concurrently.",
+    "tags": ["python", "api", "framework", "fastapi", "flask", "comparison"],
+    "published_date": "2025-02-27"
+  },
+  {
+    "url": "https://demo.example/python/streamlit-dashboards",
+    "title": "Building internal dashboards with Streamlit",
+    "content": "Streamlit turns Python scripts into interactive web apps without front-end code, which makes it quick for prototypes and internal tools. Its rerun-on-interaction model is simple but means long-running work should happen in a backend service or be cached.",
+    "tags": ["python", "dashboard", "ui", "streamlit", "prototype"],
+    "published_date": "2025-04-21"
+  }
+]

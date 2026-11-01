@@ -1,0 +1,311 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [7 0 R 9 0 R 11 0 R 13 0 R 15 0 R] /Count 5 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Length 1521 >>
+stream
+BT
+/F1 11 Tf
+15 TL
+72 740 Td
+/F2 15 Tf
+(1. Introduction and Project Objectives) Tj
+T*
+T*
+/F1 11 Tf
+(SYNTHETIC TEST DATA. This report was generated to test ResearchPilot. Harbor Point) Tj
+T*
+(Community College, its staff, and every figure below are fictional and must not be cited) Tj
+T*
+(as real research.) Tj
+T*
+(The Harbor Point Community College Energy Storage Pilot added a battery energy storage) Tj
+T*
+(system to the campus microgrid in January 2025. The microgrid already had an 800 kW) Tj
+T*
+(rooftop solar array serving the Science Building and the Library. Without storage, most) Tj
+T*
+(of the midday solar output was exported to the grid at a low price, while electricity) Tj
+T*
+(was bought back at a high price during the evening peak.) Tj
+T*
+(The pilot had three objectives:) Tj
+T*
+(Objective 1: Store midday solar energy and use it during the evening peak, reducing grid) Tj
+T*
+(purchases.) Tj
+T*
+(Objective 2: Keep the Library's emergency lighting and network equipment running for at) Tj
+T*
+(least four hours during a grid outage.) Tj
+T*
+(Objective 3: Measure the real efficiency, capacity, safety, and costs of the system, to) Tj
+T*
+(decide whether to install storage at the college's second campus.) Tj
+T*
+(The pilot ran for twelve months, from January to December 2025. Section 2 compares the) Tj
+T*
+(battery options that were considered, Section 3 reports measured efficiency and) Tj
+T*
+(capacity, Section 4 covers safety and cost, and Section 5 lists the limitations of this) Tj
+T*
+(report.) Tj
+T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 1513 >>
+stream
+BT
+/F1 11 Tf
+15 TL
+72 740 Td
+/F2 15 Tf
+(2. Battery Options and Specifications) Tj
+T*
+T*
+/F1 11 Tf
+(Three battery technologies were compared before purchase. Table 1 lists the example) Tj
+T*
+(specifications supplied for each option. All three options were sized for 1,000 kWh of) Tj
+T*
+(usable capacity.) Tj
+T*
+(Table 1. Example battery specifications \(synthetic test data\). Capacity is usable) Tj
+T*
+(capacity, efficiency is round-trip efficiency, and price is in USD per kWh of capacity.) Tj
+T*
+/F3 9 Tf
+(Option  Chemistry                Capacity   Efficiency  Cycle life  Price) Tj
+T*
+/F1 11 Tf
+/F3 9 Tf
+(A       Lithium iron phosphate   1,000 kWh  92%         6,000       USD 420) Tj
+T*
+/F1 11 Tf
+/F3 9 Tf
+(B       Nickel manganese cobalt  1,000 kWh  94%         3,500       USD 390) Tj
+T*
+/F1 11 Tf
+/F3 9 Tf
+(C       Vanadium redox flow      1,000 kWh  75%         15,000      USD 610) Tj
+T*
+/F1 11 Tf
+() Tj
+T*
+(Option A, lithium iron phosphate \(LFP\), was selected. It was not the cheapest option,) Tj
+T*
+(but it combined a cycle life of 6,000 cycles with a lower fire risk than Option B.) Tj
+T*
+(Option B, nickel manganese cobalt \(NMC\), had the highest efficiency and the lowest) Tj
+T*
+(price, but its cycle life of 3,500 cycles was much shorter and it was rejected mainly) Tj
+T*
+(for safety reasons \(see Section 4\). Option C, a vanadium redox flow battery, had the) Tj
+T*
+(longest cycle life, but its 75% round-trip efficiency would have wasted too much of the) Tj
+T*
+(stored solar energy.) Tj
+T*
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 1196 >>
+stream
+BT
+/F1 11 Tf
+15 TL
+72 740 Td
+/F2 15 Tf
+(3. Efficiency and Capacity Results) Tj
+T*
+T*
+/F1 11 Tf
+(Measured results for the selected LFP system \(Option A\) over the twelve-month pilot:) Tj
+T*
+(Round-trip efficiency: the average measured round-trip efficiency was 90.5%, slightly) Tj
+T*
+(below the rated 92%. Most of the difference came from inverter losses and the energy) Tj
+T*
+(used by the cooling system.) Tj
+T*
+(Energy throughput: the battery charged 361 MWh of midday solar energy and discharged 327) Tj
+T*
+(MWh during the evening peak \(327 / 361 = 90.5%\). This corresponds to 330 full equivalent) Tj
+T*
+(cycles, an average of 0.9 cycles per day.) Tj
+T*
+(Capacity: the usable capacity was 1,000 kWh at the start of the pilot and 982 kWh after) Tj
+T*
+(twelve months, a capacity fade of 1.8% in the first year.) Tj
+T*
+(Power: the maximum discharge power is 250 kW, so a full discharge takes about four) Tj
+T*
+(hours.) Tj
+T*
+(Outage performance: during the only grid outage of the year, on 14 October 2025, lasting) Tj
+T*
+(2 hours and 30 minutes, the battery kept the Library's emergency lighting and network) Tj
+T*
+(equipment running without interruption, as required by Objective 2.) Tj
+T*
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 1374 >>
+stream
+BT
+/F1 11 Tf
+15 TL
+72 740 Td
+/F2 15 Tf
+(4. Safety and Cost Considerations) Tj
+T*
+T*
+/F1 11 Tf
+(Safety: lithium iron phosphate cells have higher thermal stability than nickel manganese) Tj
+T*
+(cobalt cells, which was the main reason for choosing Option A over Option B. The battery) Tj
+T*
+(is housed in a separate container placed 3 metres from the Library, with gas detection) Tj
+T*
+(and a clean-agent fire suppression system. Two minor alarms occurred during the pilot: a) Tj
+T*
+(cooling-fan fault in March and a door-sensor fault in August. Neither involved) Tj
+T*
+(overheating, and there were no safety incidents.) Tj
+T*
+(Cost: Table 2 shows the installed cost of the system.) Tj
+T*
+(Table 2. Installed cost \(synthetic test data\)) Tj
+T*
+/F3 9 Tf
+(Cost item                                   USD) Tj
+T*
+/F1 11 Tf
+/F3 9 Tf
+(Battery modules \(1,000 kWh x USD 420/kWh\)   420,000) Tj
+T*
+/F1 11 Tf
+/F3 9 Tf
+(Installation, inverter, grid integration    100,000) Tj
+T*
+/F1 11 Tf
+/F3 9 Tf
+(Total installed cost                        520,000) Tj
+T*
+/F1 11 Tf
+() Tj
+T*
+(The measured savings in 2025 were USD 61,000, from lower evening electricity purchases) Tj
+T*
+(and lower peak-demand charges. The simple payback period is therefore about 8.5 years) Tj
+T*
+(\(520,000 / 61,000\). These figures do not include the annual maintenance contract \(see) Tj
+T*
+(Section 5\).) Tj
+T*
+ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 1113 >>
+stream
+BT
+/F1 11 Tf
+15 TL
+72 740 Td
+/F2 15 Tf
+(5. Limitations and Next Steps) Tj
+T*
+T*
+/F1 11 Tf
+(This report has several limitations that should be considered before using its results:) Tj
+T*
+(Short period: only twelve months of data were collected, so long-term capacity fade is) Tj
+T*
+(uncertain.) Tj
+T*
+(Single site and mild year: the results come from one campus, and the 2025 winter was) Tj
+T*
+(milder than average, so they may not transfer to the second campus.) Tj
+T*
+(Maintenance cost: the cost figures exclude the maintenance contract of USD 8,000 per) Tj
+T*
+(year. Including it, the simple payback period would be about 9.8 years \(520,000 /) Tj
+T*
+(53,000\).) Tj
+T*
+(No environmental assessment: no life-cycle environmental assessment of the batteries was) Tj
+T*
+(carried out.) Tj
+T*
+(Supplier figures: the specifications in Table 1 are example values from supplier quotes) Tj
+T*
+(in this synthetic scenario, not independent laboratory tests.) Tj
+T*
+(Next steps: the college will collect a second year of data in 2026 before deciding) Tj
+T*
+(whether to install the same system at its second campus.) Tj
+T*
+ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 14 0 R >>
+endobj
+16 0 obj
+<< /Title (Campus Energy Storage Pilot - Synthetic Test Report) /Author (ResearchPilot test data) >>
+endobj
+xref
+0 17
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000142 00000 n 
+0000000212 00000 n 
+0000000287 00000 n 
+0000000355 00000 n 
+0000001928 00000 n 
+0000002074 00000 n 
+0000003639 00000 n 
+0000003785 00000 n 
+0000005034 00000 n 
+0000005182 00000 n 
+0000006609 00000 n 
+0000006757 00000 n 
+0000007923 00000 n 
+0000008071 00000 n 
+trailer
+<< /Size 17 /Root 1 0 R /Info 16 0 R >>
+startxref
+8188
+%%EOF

@@ -1,0 +1,209 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R] /Count 4 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Length 1194 >>
+stream
+BT
+/F1 11 Tf
+15 TL
+72 740 Td
+/F2 15 Tf
+(1. Project Overview) Tj
+T*
+T*
+/F1 11 Tf
+(SYNTHETIC SAMPLE DOCUMENT created for the ResearchPilot demo. Lakeside Technical) Tj
+T*
+(University, its people, and all figures in this report are fictional.) Tj
+T*
+(The Lakeside Technical University Campus Microgrid Pilot ran from March 2024 to February) Tj
+T*
+(2025 on the university's north campus. The pilot connected three buildings, the) Tj
+T*
+(Engineering Hall, the Library Annex, and the Student Services Center, to a shared solar) Tj
+T*
+(and battery system that can operate either connected to the regional grid or in island) Tj
+T*
+(mode during outages.) Tj
+T*
+(The project had three goals: reduce electricity costs for the connected buildings, keep) Tj
+T*
+(critical services running during grid outages, and give engineering students a working) Tj
+T*
+(energy system to study.) Tj
+T*
+(The solar array has a peak capacity of 1.2 megawatts and is installed on the rooftops of) Tj
+T*
+(the three buildings and on a covered parking structure next to the Library Annex. The) Tj
+T*
+(pilot was led by the university Facilities Office with support from the Department of) Tj
+T*
+(Electrical Engineering.) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 1090 >>
+stream
+BT
+/F1 11 Tf
+15 TL
+72 740 Td
+/F2 15 Tf
+(2. Battery Storage Design) Tj
+T*
+T*
+/F1 11 Tf
+(The microgrid uses a lithium iron phosphate \(LFP\) battery system with a usable capacity) Tj
+T*
+(of 2.4 megawatt-hours, housed in two outdoor containers beside the Student Services) Tj
+T*
+(Center.) Tj
+T*
+(The project team selected LFP chemistry over nickel manganese cobalt \(NMC\) for two main) Tj
+T*
+(reasons. First, LFP cells have a lower risk of thermal runaway, which mattered because) Tj
+T*
+(the containers sit close to occupied buildings. Second, LFP cells offered a longer) Tj
+T*
+(expected cycle life, rated at about 6,000 full cycles, which suits a system that charges) Tj
+T*
+(and discharges every day.) Tj
+T*
+(The trade-off is lower energy density: the LFP system needed roughly 20 percent more) Tj
+T*
+(floor space than a comparable NMC system would have required. The team judged the extra) Tj
+T*
+(space acceptable because land next to the containers was available.) Tj
+T*
+(The battery management system limits daily depth of discharge to 85 percent to extend) Tj
+T*
+(battery life.) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 1036 >>
+stream
+BT
+/F1 11 Tf
+15 TL
+72 740 Td
+/F2 15 Tf
+(3. Costs and Results) Tj
+T*
+T*
+/F1 11 Tf
+(The total installed cost of the pilot was 3.1 million US dollars, of which 1.3 million) Tj
+T*
+(was covered by a regional clean-energy grant. The remaining 1.8 million came from the) Tj
+T*
+(university capital budget.) Tj
+T*
+(During the twelve-month pilot, electricity bills for the three connected buildings fell) Tj
+T*
+(by 18 percent compared with the previous year, after adjusting for weather. The) Tj
+T*
+(university estimates a simple payback period of about 9 years for its share of the) Tj
+T*
+(investment.) Tj
+T*
+(Reliability results were also positive. The regional grid had four outages during the) Tj
+T*
+(pilot, the longest lasting 3 hours and 40 minutes. In every case the microgrid switched) Tj
+T*
+(to island mode and kept the Library Annex and Student Services Center powered without) Tj
+T*
+(interruption.) Tj
+T*
+(Students used operating data from the microgrid in two courses, Power Systems Analysis) Tj
+T*
+(and Energy Data Science.) Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 977 >>
+stream
+BT
+/F1 11 Tf
+15 TL
+72 740 Td
+/F2 15 Tf
+(4. Risks, Limitations, and Next Steps) Tj
+T*
+T*
+/F1 11 Tf
+(The pilot identified three main risks. Inverter firmware updates caused two short) Tj
+T*
+(unplanned shutdowns in the first quarter, which led the team to schedule updates only) Tj
+T*
+(during weekend maintenance windows. Snow cover reduced solar output by more than half on) Tj
+T*
+(several winter days. Finally, the evaluation covered only one year, so long-term battery) Tj
+T*
+(degradation is still uncertain.) Tj
+T*
+(The Facilities Office recommends expanding the microgrid to the Sports Center and the) Tj
+T*
+(Chemistry Building in 2026, subject to funding approval. It also recommends installing a) Tj
+T*
+(weather-based forecasting tool to plan battery charging ahead of cloudy days.) Tj
+T*
+(This report does not include an environmental life-cycle assessment of the batteries,) Tj
+T*
+(and it does not compare the pilot against buying renewable energy certificates.) Tj
+T*
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Title (Campus Microgrid Pilot - Technical Summary \(synthetic sample\)) /Author (ResearchPilot demo) >>
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000135 00000 n 
+0000000205 00000 n 
+0000000280 00000 n 
+0000001526 00000 n 
+0000001662 00000 n 
+0000002804 00000 n 
+0000002940 00000 n 
+0000004028 00000 n 
+0000004165 00000 n 
+0000005194 00000 n 
+0000005332 00000 n 
+trailer
+<< /Size 14 /Root 1 0 R /Info 13 0 R >>
+startxref
+5456
+%%EOF

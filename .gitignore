@@ -1,0 +1,33 @@
+# Environment
+.env
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+.coverage
+.coverage.*
+htmlcov/
+
+# Runtime data and local output (keep only the folder marker)
+data/*
+!data/.gitkeep
+*.log
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/**/.ipynb_checkpoints/
+
+# Local caches and archives that must not be committed
+.cache/
+.streamlit/
+*.zip

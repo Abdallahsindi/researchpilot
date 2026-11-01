@@ -1,0 +1,111 @@
+{
+  "pdf": "researchpilot_test_report.pdf",
+  "ui_demo_request": {
+    "question": "Based on the pilot results, should the college reuse the lithium iron phosphate battery at its second campus?",
+    "criteria": [
+      "efficiency",
+      "safety",
+      "cost"
+    ],
+    "constraints": [
+      "limited capital budget"
+    ]
+  },
+  "cases": [
+    {
+      "id": "efficiency",
+      "question": "What round-trip efficiency did the battery system achieve during the pilot?",
+      "answerable": true,
+      "expected_pages": [
+        3
+      ],
+      "expected_facts": [
+        "90.5%",
+        "rated 92%"
+      ],
+      "section": "3. Efficiency and Capacity Results"
+    },
+    {
+      "id": "selected-option",
+      "question": "Which battery option was selected and why?",
+      "answerable": true,
+      "expected_pages": [
+        2,
+        4
+      ],
+      "expected_facts": [
+        "Option A, lithium iron phosphate (LFP), was selected",
+        "thermal stability"
+      ],
+      "section": "2. Battery Options and Specifications; 4. Safety and Cost Considerations"
+    },
+    {
+      "id": "cycle-life",
+      "question": "How does the cycle life of the NMC battery compare with lithium iron phosphate?",
+      "answerable": true,
+      "expected_pages": [
+        2
+      ],
+      "expected_facts": [
+        "3,500",
+        "6,000"
+      ],
+      "section": "2. Battery Options and Specifications (Table 1)"
+    },
+    {
+      "id": "cost-payback",
+      "question": "What was the total installed cost and the simple payback period?",
+      "answerable": true,
+      "expected_pages": [
+        4
+      ],
+      "expected_facts": [
+        "520,000",
+        "8.5 years"
+      ],
+      "section": "4. Safety and Cost Considerations (Table 2)"
+    },
+    {
+      "id": "capacity-fade",
+      "question": "How much usable capacity was left after the first year?",
+      "answerable": true,
+      "expected_pages": [
+        3
+      ],
+      "expected_facts": [
+        "982 kWh",
+        "1.8%"
+      ],
+      "section": "3. Efficiency and Capacity Results"
+    },
+    {
+      "id": "limitations",
+      "question": "What are the main limitations of this report?",
+      "answerable": true,
+      "expected_pages": [
+        5
+      ],
+      "expected_facts": [
+        "only twelve months of data",
+        "USD 8,000 per year"
+      ],
+      "section": "5. Limitations and Next Steps"
+    },
+    {
+      "id": "unanswerable-ev",
+      "question": "How many electric vehicles does the campus charge each day?",
+      "answerable": false,
+      "expected_pages": [],
+      "expected_facts": [],
+      "section": null
+    },
+    {
+      "id": "unanswerable-manufacturer",
+      "question": "Which company manufactured the battery cells?",
+      "answerable": false,
+      "expected_pages": [],
+      "expected_facts": [],
+      "section": null
+    }
+  ]
+}

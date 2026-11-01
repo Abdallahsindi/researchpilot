@@ -1,0 +1,70 @@
+[project]
+name = "researchpilot"
+version = "0.1.0"
+description = "Multi-agent AI research and decision intelligence system."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "pydantic>=2.8",
+    "pydantic-settings>=2.4",
+    "langgraph>=0.6",
+    "httpx>=0.27",
+    "python-multipart>=0.0.9",
+    "numpy>=1.26",
+    "pypdf>=5.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3",
+    "pytest-asyncio>=0.24",
+    "ruff>=0.6",
+    "faiss-cpu>=1.8",
+    "nbformat>=5.10",
+    "streamlit>=1.40",
+]
+# Optional stacks. Install with e.g. `uv sync --group rag --group llm`.
+rag = [
+    "faiss-cpu>=1.8",
+    "sentence-transformers>=3.0",
+]
+llm = [
+    "torch>=2.3",
+    "transformers>=4.45",
+    "accelerate>=0.33",
+]
+supabase = [
+    "psycopg[binary]>=3.2",
+]
+ui = [
+    "streamlit>=1.40",
+]
+notebook = [
+    "jupyter>=1.0",
+    "nbclient>=0.10",
+    "ipykernel>=6.29",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+ignore = ["SIM905"]
+
+[tool.ruff.lint.per-file-ignores]
+# Long lines here are the sample documents' prose paragraphs.
+"scripts/make_sample_pdf.py" = ["E501"]
+"scripts/make_test_report.py" = ["E501"]
